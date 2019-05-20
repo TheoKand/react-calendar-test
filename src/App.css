@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* app styles */
+.Calendar {
+  width:200px;
+  height:120px;
+  padding:2px;
+  border:1px solid black;
+  margin:10px;
+  text-align: center;
+  font-size:small;
+}
+
+.Calendar-cell {
+  float:left;
+  width:26px;
+  margin:1px;
+}
+
+.Calendar-today {
+  font-weight: bold;
+  background-color:lightblue;
+}
+
+.Calendar-header {
+  width:100% !important;
+  font-weight: bold;
+}
+
+
+
